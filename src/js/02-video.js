@@ -1,7 +1,6 @@
 import Vimeo from '@vimeo/player';
 import throttle from 'lodash.throttle';
 
-// Отримуємо посилання на елемент iframe та ініціалізуємо плеєр
 const iframe = document.querySelector('iframe');
 
 const player = new Vimeo(iframe);
